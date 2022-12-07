@@ -77,10 +77,10 @@ U_NA,       U_NA,          &kp RALT,          &u_to_U_SYM,       &u_to_U_MOUSE, 
 U_NP,       U_NP,          U_NP,              U_NP,              U_NA,              U_NA,              U_BTN1,            U_BTN2,          U_BTN3,            U_NP,              U_NP,             U_NP
 
 #define MIRYOKU_LAYER_MEDIA \
-&kp TAB,    &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,           &kp I,             &kp O,             &kp P,            &kp BSPC,       \
-&kp LCTRL,  &kp A,         &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,           &kp K,             &kp L,             &kp SEMI,         &kp SQT,        \
-&kp LSHFT,  &kp Z,         &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,           &kp COMMA,         &kp DOT,           &kp SLASH,        &u_to_U_BASE,   \
-U_NP,       U_NP,          U_NP,              U_NP,              &kp ESC,           &kp RET,           &kp SPACE,         &kp BSPC,        &kp DEL,           U_NP,              U_NP,             U_NP 
+U_NA,       U_BOOT,        &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &kp C_VOL_UP,      U_RGB_TOG,         U_RGB_EFF,       U_RGB_HUI,         U_RGB_SAI,         U_RGB_BRI,        U_NA,           \
+U_NA,       &kp LGUI,      &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp C_VOL_DN,      U_EP_TOG,          &kp C_PREV,      &kp C_VOL_DN,      &kp C_VOL_UP,      &kp C_NEXT,       U_NA,           \
+U_NA,       U_NA,          &kp RALT,          &u_to_U_FUN,       &u_to_U_MEDIA,     &kp C_MUTE,        &u_out_tog,        &u_bt_sel_0,     &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,      U_NA,           \
+U_NP,       U_NP,          U_NP,              U_NP,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,        &kp C_MUTE,        U_NP,              U_NP,             U_NP
 
 #define MIRYOKU_LAYER_NUM \
 &kp TAB,    &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,           &kp I,             &kp O,             &kp P,            &kp BSPC,       \

@@ -46,10 +46,10 @@ MIRYOKU_X(FUN,    "Fun")
 #define U_FUN    8
 
 #define MIRYOKU_LAYER_BASE \
-&kp TAB,	  &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,           &kp U,             &kp I,             &kp O,             &kp P,					   &kp BSPC,       \
-&kp LCTRL,	U_MT(LGUI, A), U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,           U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, SEMI), &kp SQT,        \
-&kp LSHFT,	&kp Z,         &kp X,             &kp C,             &kp V,             &kp B,             &kp N,           &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,	       U_LT(RET,RSHFT),\
-U_NP,		    U_NP,			     U_NP,              U_NP, 	           U_LT(U_MOUSE, ESC),U_LT(U_NAV, RET),  &kp BSPC,		    U_LT(U_NUM, SPACE),U_LT(U_SYMs, DEL), U_NP,  	      		 U_NP,             U_NP
+&kp TAB,     &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,            &kp Y,             &kp U,             &kp I,             &kp O,           &kp P,            &kp BSPC,       \
+&kp LCTRL,   U_MT(LGUI, A), U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,            &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),   U_MT(LGUI, SEMI), &kp SQT,        \
+&kp LSHFT,   &kp Z,         &kp X,             &kp C,             &kp V,             &kp B,            &kp N,             &kp M,             &kp COMMA,         &kp DOT,         &kp SLASH,        U_LT(RET,RSHFT),\
+U_NP,        U_NP,          U_NP,              U_NP,              U_LT(U_MOUSE, ESC),U_LT(U_NAV, RET), &kp BSPC,          U_LT(U_NUM, SPACE),U_LT(U_SYMs, DEL), U_NP,            U_NP,             U_NP
 
 #define MIRYOKU_LAYER_EXTRA \
 &kp TAB,    &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,           &kp I,             &kp O,             &kp P,            &kp BSPC,       \

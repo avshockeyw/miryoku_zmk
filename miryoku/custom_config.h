@@ -73,7 +73,7 @@ U_NP,       U_NP,          U_NP,              U_NA,              U_NA,          
 U_NA,       U_BOOT,        &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &kp C_VOL_UP,      U_RDO,             U_PST,           U_CPY,             U_CUT,             U_UND,            U_NA,           \
 U_NA,       &kp LGUI,      &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp C_VOL_DN,      U_NU,              U_MS_L,          U_MS_D,            U_MS_U,            U_MS_R,           U_NA,           \
 U_NA,       U_NA,          &kp RALT,          &u_to_U_SYM,       &u_to_U_MOUSE,     &kp C_MUTE,        U_NU,              U_WH_L,          U_WH_D,            U_WH_U,            U_WH_R,           U_NA,           \
-U_NP,       U_NP,          U_NP,              U_NA,              U_NA,              U_NA,              U_BTN1,            U_BTN2,          U_BTN3,            U_NP,              U_NP,             U_NA,
+U_NP,       U_NP,          U_NP,              U_NA,              U_NA,              U_NA,              U_BTN1,            U_BTN2,          U_BTN3,            U_NP,              U_NP,             U_NA
 
 #define MIRYOKU_LAYER_MEDIA \
 U_NA,       U_BOOT,        &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &kp C_VOL_UP,      U_RGB_TOG,         U_RGB_EFF,       U_RGB_HUI,         U_RGB_SAI,         U_RGB_BRI,        U_NA,           \
@@ -97,5 +97,5 @@ U_NA,       U_NP,          U_NP,              U_NP,              &kp LBRC,      
 U_NA,       &kp F11,       &kp F12,           &kp PSCRN,         &kp SLCK,          &kp PAUSE_BREAK,   &kp C_VOL_UP,      &u_to_U_BASE,    &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,           U_NA,           \
 U_NA,       &kp F6,        &kp F7,            &kp F8,            &kp F9,            &kp F10,           &kp C_VOL_DN,      &kp LSHFT,       &kp LCTRL,         &kp LALT,          &kp LGUI,         U_NA,           \
 U_NA,       &kp F1,        &kp F2,            &kp F3,            &kp F4,            &kp F5,            &kp C_MUTE,        &u_to_U_FUN,     &u_to_U_MEDIA,     &kp RALT,          U_NA,             U_NA,           \
-U_NA,       U_NP,          U_NP,              &kp K_APP,         &kp SPC,           &kp TAB,           U_NA,              U_NA,            U_NA,              U_NP,              U_NP,             U_NA, 
+U_NA,       U_NP,          U_NP,              &kp K_APP,         &kp SPC,           &kp TAB,           U_NA,              U_NA,            U_NA,              U_NP,              U_NP,             U_NA 
 

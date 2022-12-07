@@ -55,13 +55,13 @@ U_NP,		    U_NP,			     U_NP,              U_NP, 	           U_LT(U_MOUSE, ESC),
 &kp TAB,    &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,           &kp I,             &kp O,             &kp P,            &kp BSPC,       \
 &kp LCTRL,  &kp A,         &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,           &kp K,             &kp L,             &kp SEMI,         &kp SQT,        \
 &kp LSHFT,  &kp Z,         &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,           &kp COMMA,         &kp DOT,           &kp SLASH,        &u_to_U_BASE,   \
-U_NP,       U_NP,          U_NP,              U_NP               &kp ESC,           &kp RET,           &kp SPACE,         &kp BSPC,        &kp DEL,           U_NP,              U_NP,             U_NP 
+U_NP,       U_NP,          U_NP,              U_NP,              &kp ESC,           &kp RET,           &kp SPACE,         &kp BSPC,        &kp DEL,           U_NP,              U_NP,             U_NP 
 
 #define MIRYOKU_LAYER_TAP \
 &kp TAB,    &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,           &kp I,             &kp O,             &kp P,            &kp BSPC,       \
 &kp LCTRL,  &kp A,         &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,           &kp K,             &kp L,             &kp SEMI,         &kp SQT,        \
 &kp LSHFT,  &kp Z,         &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,           &kp COMMA,         &kp DOT,           &kp SLASH,        &u_to_U_BASE,   \
-U_NP,       U_NP,          U_NP,              U_NP               &kp ESC,           &kp RET,           &kp SPACE,         &kp BSPC,        &kp DEL,           U_NP,              U_NP,             U_NP 
+U_NP,       U_NP,          U_NP,              U_NP,              &kp ESC,           &kp RET,           &kp SPACE,         &kp BSPC,        &kp DEL,           U_NP,              U_NP,             U_NP 
 
 #define MIRYOKU_LAYER_NAV \
 U_NA,       U_BOOT,        &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &kp C_VOL_UP,      U_RDO,             U_PST,           U_CPY,             U_CUT,             U_UND,            U_NA,           \
@@ -85,13 +85,13 @@ U_NP,       U_NP,          U_NP,              U_NA,              U_NA,          
 U_NA,       &kp GRAVE,     U_NU,              &kp MINUS,         &kp EQL,           &kp BSLH,          &kp C_VOL_UP,      &u_to_U_BASE,    &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,           U_NA,           \
 U_NA,       &kp NUM_6,     &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp NUM_0,         &kp C_VOL_DN,      &kp LSHFT,       &kp LCTRL,         &kp LALT,          &kp LGUI,         U_NA,           \
 U_NA,       &kp NUM_1,     &kp NUM_2,         &kp NUM_3,         &kp NUM_4,         &kp NUM_5,         &kp C_MUTE,        &u_to_U_NUM,     &u_to_U_NAV,       &kp RALT,          U_NA,             U_NA,           \
-U_NA,       U_NP,          U_NP,              U_NP               &kp LBKT,          &kp RBKT,          &kp BSPC,          U_NA,            U_NA,              U_NP,              U_NP              U_NA
+U_NA,       U_NP,          U_NP,              U_NP,              &kp LBKT,          &kp RBKT,          &kp BSPC,          U_NA,            U_NA,              U_NP,              U_NP,             U_NA
 
 #define MIRYOKU_LAYER_SYM \
 U_NA,       &kp TILDE,     U_NU,              &kp UNDER,         &kp PLUS,          &kp VERT,          &kp C_VOL_UP,      &u_to_U_BASE,    &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,           U_NA,           \
 U_NA,       &kp CRRT,      &kp AMPS,          &kp STAR,          &kp RPAR,          &kp LPAR,          &kp C_VOL_DN,      &kp LSHFT,       &kp LCTRL,         &kp LALT,          &kp LGUI,         U_NA,           \
 U_NA,       &kp EXCL,      &kp AT,            &kp HASH,          &kp DOLLAR,        &kp PRCNT,         &kp C_MUTE,        &u_to_U_SYM,     &u_to_U_MOUSE,     &kp RALT,          U_NA,             U_NA,           \
-U_NA,       U_NP,          U_NP,              U_NP               &kp LBRC,          &kp RBRC,          &kp BSPC,          U_NA,            U_NA,              U_NP,              U_NP              U_NA
+U_NA,       U_NP,          U_NP,              U_NP,              &kp LBRC,          &kp RBRC,          &kp BSPC,          U_NA,            U_NA,              U_NP,              U_NP,             U_NA
 
 #define MIRYOKU_LAYER_FUN \
 U_NA,       &kp F11,       &kp F12,           &kp PSCRN,         &kp SLCK,          &kp PAUSE_BREAK,   &kp C_VOL_UP,      &u_to_U_BASE,    &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,           U_NA,           \

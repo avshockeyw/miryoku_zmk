@@ -89,13 +89,13 @@ U_NA,       &kp NUM_1,     &kp NUM_2,         &kp NUM_3,         &kp NUM_4,     
 U_NP,       U_NP,          U_NP,              U_NP,              &kp LBKT,          &kp RBKT,          &kp BSPC,          U_NA,            U_NA,              U_NP,              U_NP,             U_NP
 
 #define MIRYOKU_LAYER_SYM \
-&kp TAB,    &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,           &kp I,             &kp O,             &kp P,            &kp BSPC,       \
-&kp LCTRL,  &kp A,         &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,           &kp K,             &kp L,             &kp SEMI,         &kp SQT,        \
-&kp LSHFT,  &kp Z,         &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,           &kp COMMA,         &kp DOT,           &kp SLASH,        &u_to_U_BASE,   \
-U_NP,       U_NP,          U_NP,              U_NP,              &kp ESC,           &kp RET,           &kp SPACE,         &kp BSPC,        &kp DEL,           U_NP,              U_NP,             U_NP 
+U_NA,       &kp TILDE,     U_NU,              &kp UNDER,         &kp PLUS,          &kp PIPE,          &kp C_VOL_UP,      &u_to_U_BASE,    &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,           U_NA,           \
+U_NA,       &kp CARET,     &kp AMPS,          &kp STAR,          &kp LPAR,          &kp RPAR,          &kp C_VOL_DN,      &kp LSHFT,       &kp LCTRL,         &kp LALT,          &kp LGUI,         U_NA,           \
+U_NA,       &kp EXCL,      &kp AT,            &kp HASH,          &kp DOLLAR,        &kp PRCNT,         &kp C_MUTE,        &u_to_U_SYM,     &u_to_U_MOUSE,     &kp RALT,          U_NA,             U_NA,           \
+U_NP,       U_NP,          U_NP,              U_NP,              &kp LBRC,          &kp RBRC,          &kp BSPC,          U_NA,            U_NA,              U_NP,              U_NP,             U_NP
 
 #define MIRYOKU_LAYER_FUN \
 U_NA,       &kp F11,       &kp F12,           &kp PSCRN,         &kp SLCK,          &kp PAUSE_BREAK,   &kp C_VOL_UP,      &u_to_U_BASE,    &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,           U_NA,           \
 U_NA,       &kp F6,        &kp F7,            &kp F8,            &kp F9,            &kp F10,           &kp C_VOL_DN,      &kp LSHFT,       &kp LCTRL,         &kp LALT,          &kp LGUI,         U_NA,           \
 U_NA,       &kp F1,        &kp F2,            &kp F3,            &kp F4,            &kp F5,            &kp C_MUTE,        &u_to_U_FUN,     &u_to_U_MEDIA,     &kp RALT,          U_NA,             U_NA,           \
-U_NP,       U_NP,          U_NP,              U_NP,              &kp ESC,           &kp RET,           U_BSPC,            U_NA,            U_NA,              U_NP,              U_NP,             U_NP 
+U_NP,       U_NP,          U_NP,              U_NP,              &kp ESC,           &kp RET,           &kp BSPC,          U_NA,            U_NA,              U_NP,              U_NP,             U_NP 

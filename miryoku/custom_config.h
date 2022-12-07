@@ -83,10 +83,10 @@ U_NA,       U_NA,          &kp RALT,          &u_to_U_FUN,       &u_to_U_MEDIA, 
 U_NP,       U_NP,          U_NP,              U_NP,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,        &kp C_MUTE,        U_NP,              U_NP,             U_NP
 
 #define MIRYOKU_LAYER_NUM \
-&kp TAB,    &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,           &kp I,             &kp O,             &kp P,            &kp BSPC,       \
-&kp LCTRL,  &kp A,         &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,           &kp K,             &kp L,             &kp SEMI,         &kp SQT,        \
-&kp LSHFT,  &kp Z,         &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,           &kp COMMA,         &kp DOT,           &kp SLASH,        &u_to_U_BASE,   \
-U_NP,       U_NP,          U_NP,              U_NP,              &kp ESC,           &kp RET,           &kp SPACE,         &kp BSPC,        &kp DEL,           U_NP,              U_NP,             U_NP 
+U_NA,       &kp GRAVE,     U_NU,              &kp MINUS,         &kp EQL,           &kp BSLH,          &kp C_VOL_UP,      &u_to_U_BASE,    &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,           U_NA,           \
+U_NA,       &kp NUM_6,     &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp NUM_0,         &kp C_VOL_DN,      &kp LSHFT,       &kp LCTRL,         &kp LALT,          &kp LGUI,         U_NA,           \
+U_NA,       &kp NUM_1,     &kp NUM_2,         &kp NUM_3,         &kp NUM_4,         &kp NUM_5,         &kp C_MUTE,        &u_to_U_NUM,     &u_to_U_NAV,       &kp RALT,          U_NA,             U_NA,           \
+U_NP,       U_NP,          U_NP,              U_NP,              &kp LBKT,          &kp RBKT,          &kp BSPC,          U_NA,            U_NA,              U_NP,              U_NP,             U_NP
 
 #define MIRYOKU_LAYER_SYM \
 &kp TAB,    &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,           &kp I,             &kp O,             &kp P,            &kp BSPC,       \

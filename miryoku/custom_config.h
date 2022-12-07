@@ -71,10 +71,10 @@ U_NA,       U_NA,          &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,   
 U_NP,       U_NP,          U_NP,              U_NP,              U_NA,              U_NA,              &kp BSPC,          &kp SPACE,       &kp DEL,           U_NP,              U_NP,             U_NP
 
 #define MIRYOKU_LAYER_MOUSE \
-&kp TAB,    &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,           &kp I,             &kp O,             &kp P,            &kp BSPC,       \
-&kp LCTRL,  &kp A,         &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,           &kp K,             &kp L,             &kp SEMI,         &kp SQT,        \
-&kp LSHFT,  &kp Z,         &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,           &kp COMMA,         &kp DOT,           &kp SLASH,        &u_to_U_BASE,   \
-U_NP,       U_NP,          U_NP,              U_NP,              &kp ESC,           &kp RET,           &kp SPACE,         &kp BSPC,        &kp DEL,           U_NP,              U_NP,             U_NP 
+U_NA,       U_BOOT,        &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &kp C_VOL_UP,      U_RDO,             U_PST,           U_CPY,             U_CUT,             U_UND,            U_NA,           \
+U_NA,       &kp LGUI,      &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp C_VOL_DN,      U_NU,              U_MS_L,          U_MS_D,            U_MS_U,            U_MS_R,           U_NA,           \
+U_NA,       U_NA,          &kp RALT,          &u_to_U_SYM,       &u_to_U_MOUSE,     &kp C_MUTE,        U_NU,              U_WH_L,          U_WH_D,            U_WH_U,            U_WH_R,           U_NA,           \
+U_NP,       U_NP,          U_NP,              U_NP,              U_NA,              U_NA,              U_BTN1,            U_BTN2,          U_BTN3,            U_NP,              U_NP,             U_NP
 
 #define MIRYOKU_LAYER_MEDIA \
 &kp TAB,    &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,           &kp I,             &kp O,             &kp P,            &kp BSPC,       \

@@ -27,8 +27,8 @@
 #define MIRYOKU_MAPPING MIRYOKU_LAYOUTMAPPING_REVIUNG41
 
 #define MIRYOKU_LAYER_LIST \
-MIRYOKU_X(BASE,   "Base") \
-MIRYOKU_X(EXTRA,  "Extra") \
+MIRYOKU_X(BASE,   "Colemak-DH") \
+MIRYOKU_X(EXTRA,  "QWERTY") \
 MIRYOKU_X(TAP,    "Game") \
 MIRYOKU_X(NAV,    "Nav") \
 MIRYOKU_X(MOUSE,  "Mouse") \
@@ -50,16 +50,16 @@ MIRYOKU_X(FUN,    "Fun")
 #define U_BUTTON U_MOUSE
 
 #define MIRYOKU_LAYER_BASE \
-&kp TAB,    &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,           &kp I,             &kp O,             &kp P,            &kp BSPC,       \
-&kp LCTRL,  &kp A,         &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,           &kp K,             &kp L,             &kp SEMI,         &kp SQT,        \
-&kp LSHFT,  &kp Z,         &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,           &kp COMMA,         &kp DOT,           &kp SLASH,        &u_to_U_BASE,   \
-U_NP,       U_NP,          U_NP,              U_NP,              &kp ESC,           &kp RET,           &kp SPACE,         &kp BSPC,        &kp DEL,           U_NP,              U_NP,             U_NP 
+&kp TAB,    &kp Q,         &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,           &kp U,             &kp Y,             &kp SQT,          &kp BSPC,       \
+&kp LCTRL,  U_MT(LGUI, A), U_MT(LALT, R),     U_MT(LCTRL, S),    U_MT(LSHFT, T),    &kp G,             &kp M,             U_MT(LSHFT, N),  U_MT(LCTRL, E),    U_MT(LALT, I),     U_MT(LGUI, O),    &kp SEMI        \
+&kp LSHFT,  &kp Z,         &kp X,             &kp C,             &kp D,             &kp V,             &kp K,             &kp H,           &kp COMMA,         &kp DOT,           &kp SLASH,        &u_to_U_BASE,   \
+U_NP,       U_NP,          U_NP,              U_NP,              U_LT(U_MOUSE,ESC), U_LT(U_NAV,RET),   &kp BSPC,          U_LT(U_NUM,SPACE),U_LT(U_SYM,DEL),  U_NP,              U_NP,             U_NP 
 
 #define MIRYOKU_LAYER_EXTRA \
 &kp TAB,    &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,           &kp I,             &kp O,             &kp P,            &kp BSPC,       \
-&kp LCTRL,  &kp A,         &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,           &kp K,             &kp L,             &kp SEMI,         &kp SQT,        \
+&kp LCTRL,  U_MT(LGUI,A),  U_MT(LALT,S),      U_MT(LCTRL,D),     U_MT(LSHFT,F),     &kp G,             &kp H,             U_MT(LSHFT,J),   U_MT(LCTRL,K),     U_MT(LALT,L),      U_MT(LGUI,SEMI),  &kp SQT,        \
 &kp LSHFT,  &kp Z,         &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,           &kp COMMA,         &kp DOT,           &kp SLASH,        &u_to_U_BASE,   \
-U_NP,       U_NP,          U_NP,              U_NP,              &kp ESC,           &kp RET,           &kp SPACE,         &kp BSPC,        &kp DEL,           U_NP,              U_NP,             U_NP 
+U_NP,       U_NP,          U_NP,              U_NP,              U_LT(U_MOUSE,ESC), U_LT(U_NAV,RET),   &kp BSPC,          U_LT(U_NUM,SPACE),U_LT(U_SYM,DEL),  U_NP,              U_NP,             U_NP 
 
 #define MIRYOKU_LAYER_TAP \
 &kp TAB,    &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,           &kp I,             &kp O,             &kp P,            &kp BSPC,       \

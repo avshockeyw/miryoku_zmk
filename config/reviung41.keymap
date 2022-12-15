@@ -6,5 +6,7 @@
 #include "../miryoku/miryoku.dtsi"
 
 &nice_view_spi {
+    sck-pin = <17>;
+    mosi-pin = <20>;
     cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>;
 };

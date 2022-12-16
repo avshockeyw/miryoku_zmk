@@ -27,15 +27,15 @@
 #define MIRYOKU_MAPPING MIRYOKU_LAYOUTMAPPING_REVIUNG41
 
 #define MIRYOKU_LAYER_LIST \
-MIRYOKU_X(BASE,   "Colemak-DH") \
-MIRYOKU_X(EXTRA,  "QWERTY") \
-MIRYOKU_X(TAP,    "Game") \
-MIRYOKU_X(NAV,    "Nav") \
-MIRYOKU_X(MOUSE,  "Mouse") \
-MIRYOKU_X(MEDIA,  "Media") \
-MIRYOKU_X(NUM,    "Num") \
-MIRYOKU_X(SYM,    "Sym") \
-MIRYOKU_X(FUN,    "Fun")
+MIRYOKU_X(BASE,   "base") \
+MIRYOKU_X(EXTRA,  "qwerty") \
+MIRYOKU_X(TAP,    "game") \
+MIRYOKU_X(NAV,    "nav") \
+MIRYOKU_X(MOUSE,  "mouse") \
+MIRYOKU_X(MEDIA,  "media") \
+MIRYOKU_X(NUM,    "num") \
+MIRYOKU_X(SYM,    "sym") \
+MIRYOKU_X(FUN,    "fun")
 
 #define U_BASE   0
 #define U_EXTRA  1

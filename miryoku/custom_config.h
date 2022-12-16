@@ -65,7 +65,7 @@ U_NP,       U_NP,          U_NP,              U_NP,              U_LT(U_MOUSE,ES
 &kp TAB,    &kp Q,         &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,           &kp I,             &kp O,             &kp P,            &kp BSPC,       \
 &kp LCTRL,  &kp A,         &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,           &kp K,             &kp L,             &kp SEMI,         &kp SQT,        \
 &kp LSHFT,  &kp Z,         &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,           &kp COMMA,         &kp DOT,           &kp SLASH,        &u_to_U_BASE,   \
-U_NP,       U_NP,          U_NP,              U_NP,              &kp ESC,           &kp RET,           &kp SPACE,         &kp BSPC,        &kp DEL,           U_NP,              U_NP,             U_NP 
+U_NP,       U_NP,          U_NP,              U_NP,              &kp ESC,           &kp RET,           &kp SPACE,         &kp BSPC,        &kp LALT,          U_NP,              U_NP,             U_NP 
 
 #define MIRYOKU_LAYER_NAV \
 U_NA,       U_BOOT,        &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &kp C_VOL_UP,      U_RDO,             U_PST,           U_CPY,             U_CUT,             U_UND,            U_NA,           \

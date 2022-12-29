@@ -50,8 +50,8 @@ MIRYOKU_X(FUN,    "fun")
 #define U_BUTTON U_MOUSE
 
 #define MIRYOKU_LAYER_BASE \
-&kp TAB,    &kp Q,         &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,           &kp U,             &kp Y,             &kp SQT,          &kp BSPC,       \
-&kp LCTRL,  U_MT(LGUI, A), U_MT(LALT, R),     U_MT(LCTRL, S),    U_MT(LSHFT, T),    &kp G,             &kp M,             U_MT(LSHFT, N),  U_MT(LCTRL, E),    U_MT(LALT, I),     U_MT(LGUI, O),    &kp SEMI,       \
+&kp TAB,    &kp Q,         &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,           &kp U,             &kp Y,             &kp SEMI,         &kp BSPC,       \
+&kp LCTRL,  U_MT(LGUI, A), U_MT(LALT, R),     U_MT(LCTRL, S),    U_MT(LSHFT, T),    &kp G,             &kp M,             U_MT(LSHFT, N),  U_MT(LCTRL, E),    U_MT(LALT, I),     U_MT(LGUI, O),    &kp SQT,        \
 &kp LSHFT,  &kp Z,         &kp X,             &kp C,             &kp D,             &kp V,             &kp K,             &kp H,           &kp COMMA,         &kp DOT,           &kp SLASH,        &kp RET,        \
 U_NP,       U_NP,          U_NP,              U_NP,              U_LT(U_MOUSE,ESC), U_LT(U_NAV,RET),   &kp BSPC,          U_LT(U_NUM,SPACE),U_LT(U_SYM,DEL),  U_NP,              U_NP,             U_NP 
 
